@@ -1,0 +1,6 @@
+This is a sample text file created to test the functionality of the program.
+It contains several lines of text, each designed to mimic real-world data.
+For instance, we might include a common keyword like 'error' to simulate a log file.
+Sometimes, the keyword 'error' will appear multiple times to ensure the program catches them all.
+The goal is to identify specific keywords, like 'error', 'test', or 'keyword', within this text.
+We hope this provides a sufficient challenge for the program's capabilities.
