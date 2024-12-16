@@ -50,12 +50,13 @@ In this homework, you will run pre-written code snippets, observe the SparkUI, a
    • Run the script and analyze the SparkUI.
    • Expected Outcome: The script should generate 7 jobs in SparkUI. 3. Key Code:
 
-nuek_processed_cached = nuek_repart \
+```nuek_processed_cached = nuek_repart \
  .where("final_priority < 3") \
  .select("unit_id", "final_priority") \
  .groupBy("unit_id") \
  .count() \
  .cache()
+```
 
 4. Key Question: Why does using cache() reduce the number of jobs compared to the previous step?
 5. Deliverable: Take a screenshot of the jobs in SparkUI and explain the optimization achieved through caching.
