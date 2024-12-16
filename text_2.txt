@@ -1,6 +1,0 @@
-Welcome to another example of a text file. This time, the content is a bit longer to ensure thorough testing.
-Imagine this as a file containing documentation or notes from a project.
-The keyword 'keyword' is scattered across this text to simulate real-world use cases.
-Additionally, we might include phrases like 'keyword usage' or 'test scenario' to add complexity.
-In some cases, the word 'test' may appear as part of a sentence, such as: "Testing is an important phase."
-Finally, this file concludes with one last occurrence of the keyword: 'keyword'.

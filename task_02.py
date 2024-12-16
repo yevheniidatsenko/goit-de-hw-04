@@ -21,6 +21,9 @@ nuek_processed = nuek_repart \
     .groupBy("unit_id") \
     .count()
 
+# Проміжний action: collect
+nuek_processed.collect()
+
 # Ось ТУТ додано рядок
 nuek_processed = nuek_processed.where("count>2")
 
